@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ex08</title>
+</head>
+<body>
+	<h1>Imagens dinâmicas</h1>
+		<picture>
+			<source media="(max-width: 750px)" srcset="imagens/P.png">
+			<source media="(max-width: 1050px)" srcset="imagens/M.png">
+			<img src="imagens/G.png" alt="Imagem flexível">
+		</picture>
+		<!-- maior para menor -->
+		 <picture>
+			<source media="(min-width: 1050px)" srcset="imagens/G.png">
+			<source media="(min-width: 750px)" srcset="imagens/M.png">
+			<img src="imagens/P.png" alt="imagem flexivel">
+		 </picture>
+	<h1>Áudio</h1>
+	<audio preload="metadata" controls autoplay loop>
+		<!-- nao recomendo usar o parametro "loop" -->
+		<source src="midia/tecla.mp3" type="audio/mpeg">
+		<source src="midia/tecla.ogg" type="audio/ogg">
+		<source src="midia/tecla.wav" type="image/wav">
+		<p>Seu navegador não suporta o áudio <a href="midia/tecla.mp3" download="tecla.mp3" type="audio/mpeg">CLIQUE AQUI PARA BAIXAR</a></p>
+	</audio>
+</body>
+</html>

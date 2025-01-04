@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ex05</title>
+</head>
+<body>
+	<h1>Formatações</h1>
+	<h2>Principais Formatações</h2>
+		<h3>Negrito/Destaque</h3>
+			<p>Usa-se a tag <strong>&lt;strong&gt;</strong></p>
+		<h3>Itálico/Ênfase</h3>
+			<p>Usa-se a tag <em>&lt;em&gt;</em></p>
+		<h3>Texto Marcado</h3>
+			<p>
+				Usa-se a tag <mark>&lt;mark&gt;</mark><br>
+				Para mudar a cor: <br>
+				&lt;mark style="background-color: 000000;"&gt;&lt;/mark&gt; <br>
+				Para alterar a cor de todos os "marks" é preciso criar uma tag "style" no "head" e fazer um seletor para "mark". Ex: <br>
+				<pre>
+				&lt;style&gt;
+					mark{backgroud-color:red;}
+				&lt;/style&gt;
+				</pre>
+			</p>
+	<h2>Formatações Adicionais</h2>
+		<h3>Texto grande e pequeno</h3>
+			<p>Para texto grande usa-se a tag <big>&lt;big&gt;</big><mark style="background-color: #FFB4B4;">(Tag obsoleta)</mark><br>
+			Para texto pequeno usa-se a tag <small>&lt;small&gt;</small></p>
+		<h3>Texto deletado</h3>
+			<p>Indica que o texto deve ser lido mas não considerado <br>
+				Usa-se a tag &lt;del&gt; <br>
+				Ex: <del>Texto excluido</del></p>
+		<h3>Texto inserido</h3>
+			<p>Dá ênfase e indica que foi adicionado depois <br>
+				Usa-se a tag &lt;ins&gt; <br>
+				Ex: <ins>Texto inserido</ins></p>
+		<h3>Texto sobrescrito</h3>
+			<p>Usa-se a tag &lt;sup&gt; <br>
+				Ex: x<sup>20</sup>+3</p>
+		<h3>Texto subscrito</h3>
+			<p>Usa-se a tag &lt;sub&gt; <br>
+				Ex: H<sub>2</sub>O</p>
+	<h2>Outras Formatações</h2>
+		<h3>Código-fonte</h3>
+			<p>Usado para fazer todas as letras ocuparem o mesmo espaço <br>
+				Esa-se a tag &lt;code&gt; <br>
+				Ex: <code>Código-fonte</code></p>
+		<h3>Pré-formatação</h3>
+			<p>Usado para que a forma final fique igual a do código <br>
+			Ex:
+			<pre>Pré		-		Formatação
+			000
+		0000			0000
+			</pre></p>	
+		<h3>Citações simples</h3>
+			<p>Põe a frase entre aspas("") <br>
+			Usa-se a tag &lt;q&gt; </p>
+		<h3>Citações completas</h3>
+			<p>Cria uma citação deslocada e permite a criação de um parâmetro "cite" para colocar o endereço de link da citação <br>
+			Usa-se a tag &lt;blockquote&gt; <br>
+			Ex: <blockquote cite="https://www.pensador.com/frases_famosas/">Esquecer é uma necessidade. A vida é uma lousa, em que o destino, para escrever um novo caso, precisa de apagar o caso escrito</blockquote></p>
+		<h3>Abreviações</h3>
+			<p>Permite colocar o significado de uma sigla através de um pequeno pop-up <br>
+			Usa-se a tag: &lt;abbr&gt; <br>
+			Ex: <abbr title="Hypertext Markup Language">HTML</abbr></p>
+		<h3>Texto invertido(meio inútil)</h3>
+			<p>&lt;bdo dir="rtl"&gt;Inverte o texto&lt;/bdo&gt; <br>
+				&lt;bdo dir="ltr"&gt;Não inverte&lt;/bdo&gt;</p>
+</body>
+</html>
